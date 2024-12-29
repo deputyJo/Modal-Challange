@@ -1,0 +1,36 @@
+#modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modalBackground {
+
+    height: 700px;
+    /* size */
+    width: 900px;
+    background-color: red;
+    /* background color */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modalOverlay {
+    z-index: 1;
+    background-color: grey;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalMessage,
+.modalHeader {
+    top: 10px;
+    left: 10px;
+    background-color: blue;
+}
